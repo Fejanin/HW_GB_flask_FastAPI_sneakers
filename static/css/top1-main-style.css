@@ -1,0 +1,129 @@
+#m001 {
+    background-color: #F1F1F1; 
+}
+
+.top_content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    padding: 48px;
+    gap: 32px;
+    background: var(--white-100, #FFF);
+    border-radius: 50px;
+}
+
+.top_card {
+    color: var(--black, #121723);
+    
+}
+
+.top_good_inform {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 24px;
+}
+
+.top_text_1 {
+    color: var(--black, #121723);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 48px */
+}
+
+.top_text_2 {
+    color: var(--black, #121723);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 36px */
+}
+
+.top_info {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.top_text_3 {
+    flex: 1 0 0;
+    color: var(--black, #121723);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 140% */
+}
+
+.top_table {
+    display: flex;
+    flex-direction: column;
+    width: 506px;
+    height: auto;
+    gap: 24px;
+}
+
+.top_row {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.top_about {
+    color: var(--black, #121723);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.top_line {
+    height: 1px;
+    background: var(--black, #121723);
+    align-self: stretch;
+}
+
+.top_more_inf {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: var(--black, #121723);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+@media (max-width: 1439px) {
+    .top_content {
+        width: 343px;
+        margin: 32px 0px;
+        padding: 24px;
+        border-radius: 12px;
+    }
+
+    .top_text_1 {
+        font-size: 32px;
+    }
+
+    .top_text_2 {
+        font-size: 20px;
+    }
+
+    .top_info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .top_text_3 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .top_table {
+        width: 295px;
+    }
+}
