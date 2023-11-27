@@ -1,42 +1,13 @@
-<html lang="ru">
- 
-	<head>
- 
-    	<meta charset="UTF-8">
- 
-    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
- 
-    	<title>Кроссы — и точка</title>
- 
-    	<link rel="stylesheet" href="../static/css/common-style.css"/>
-        <link rel="stylesheet" href="../static/css/header-style.css"/>
-        <link rel="stylesheet" href="../static/css/footer-style.css"/>
+{% extends "base.html" %}
+
+{% block link_css %}
         <link rel="stylesheet" href="../static/css/top1-main-style.css"/>
- 
-	</head>
-    <body>
-        <header class="container" id="h001">
-            <div class="header_nav">
-                <div class="header_logo_black">
-                    <a href="index.html"><img src="../static/imgs/header/logo.png" alt="logo"></a>
-                </div>
-                <ul class="header_social_list">
-                    <li>
-                        <a href="#" class="header_social_card">💬 TG</a>
-                    </li>
-                    <li>
-                        <a href="#" class="header_social_card">😊 VK</a>
-                    </li>
-                    <li>
-                        <a href="#" class="header_social_card">📺 YouTube</a>
-                    </li>
-                </ul>
-                
-            </div>
-        </header>
+{% endblock %}
+
+{% block main %}
         <main class="container" id="m001">
             <div class="top_content">
-                <a href="index.html" class="top_card">
+                <a href="/" class="top_card">
                         <img src="../static/imgs/top/sneaker-big__img_3.png" alt="top_3">
                         
                 </a>
@@ -92,31 +63,4 @@
                 </div>
             </div>
         </main>
-        <footer class="container" id="f001">
-            <div  class="footer_nav">
-                <div class="footer_wrapper">
-                    <div class="footer_logo_white">
-                        <a href="#"><img src="../static/imgs/footer/logo.png" alt="logo"></a>
-                    </div>
-                    <ul class="footer_social_list">
-                        <li>
-                            <a href="#" class="footer_social_card">💬 TG</a>
-                        </li>
-                        <li>
-                            <a href="#" class="footer_social_card">😊 VK</a>
-                        </li>
-                        <li>
-                            <a href="#" class="footer_social_card">📺 YouTube</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer_bottom">
-                    <div class="line"></div>
-                    <div class="footer_text">
-                        <div>КРОССЫ И ТОЧКА ® 2023</div>
-                    </div>
-                </div>
-                
-            </div>
-        </footer>
-    </body>
+{% endblock %}

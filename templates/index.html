@@ -1,203 +1,147 @@
-<html lang="ru">
- 
-	<head>
- 
-    	<meta charset="UTF-8">
- 
-    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
- 
-    	<title>Кроссы — и точка</title>
- 
-    	<link rel="stylesheet" href="../static/css/common-style.css"/>
-        <link rel="stylesheet" href="../static/css/header-style.css"/>
-        <link rel="stylesheet" href="../static/css/footer-style.css"/>
-        <link rel="stylesheet" href="../static/css/main-start_page-style.css"/>
- 
-	</head>
-    <body>
-        <header class="container" id="h001">
-            <div class="header_nav">
-                <div class="header_logo_black">
-                    <a href="#"><img src="../static/imgs/header/logo.png" alt="logo"></a>
+{% extends "base.html" %}
+
+{% block link_css %}
+    <link rel="stylesheet" href="../static/css/main-start_page-style.css"/>
+{% endblock %}
+
+{% block main %}
+    <main class="container" id="m001">
+        <div class="main_content">
+
+            <h1 class="main_h1">Коллекция. {октябрь:2023}</h1>
+
+            <div class="goods">
+
+                <a href="top1"><div class="sneaker top">
+
+                    <img class="cards" src="../static/imgs/main/sneakers_1.png" alt="sneakers_1">
+
+                    <div class="discrition">
+
+                        <p class="text_1">New Balance C-ms574</p>
+
+                        <p class="text_2">Salehe Bembury Shark Skin</p>
+
+                    </div>
+
+                </div></a>
+
+                <a href="top2"><div class="sneaker top">
+
+                    <img class="cards" src="../static/imgs/main/sneakers_2.png" alt="sneakers_2">
+
+                    <div class="discrition">
+
+                        <p class="text_1">Nike Dunk Low SP</p>
+
+                        <p class="text_2">Nike Dunk Low Orange Blaze Syracuse</p>
+
+                    </div>
+
+                </div></a>
+
+                <a href="top3"><div class="sneaker top">
+
+                    <img class="cards" src="../static/imgs/main/sneakers_3.png" alt="sneakers_3">
+
+                    <div class="discrition">
+
+                        <p class="text_1">Converse Chuck 70 High</p>
+
+                        <p class="text_2">Comme des Garcons PLAY Black</p>
+
+                    </div>
+
+                </div></a>
+
+                <div class="sneaker">
+
+                    <img class="cards" src="../static/imgs/main/sneakers_4.png" alt="sneakers_4">
+
+                    <div class="discrition">
+
+                        <p class="text_1">adidas Yeezy Foam RNNR</p>
+
+                        <p class="text_2">Stone Sage</p>
+
+                    </div>
+
                 </div>
-                <ul class="header_social_list">
-                    <li>
-                        <a href="#" class="header_social_card">💬 TG</a>
-                    </li>
-                    <li>
-                        <a href="#" class="header_social_card">😊 VK</a>
-                    </li>
-                    <li>
-                        <a href="#" class="header_social_card">📺 YouTube</a>
-                    </li>
-                </ul>
-                
-            </div>
-        </header>
-        <main class="container" id="m001">
-            <div class="main_content">
-         
-                <h1 class="main_h1">Коллекция. {октябрь:2023}</h1>
-        
-                <div class="goods">
-        
-                    <a href="top1.html"><div class="sneaker top">
- 
-						<img class="cards" src="../static/imgs/main/sneakers_1.png" alt="sneakers_1">
- 
-						<div class="discrition">
- 
-							<p class="text_1">New Balance C-ms574</p>
- 
-							<p class="text_2">Salehe Bembury Shark Skin</p>
- 
-						</div>
- 
-					</div></a>
- 
-					<a href="top2.html"><div class="sneaker top">
- 
-						<img class="cards" src="../static/imgs/main/sneakers_2.png" alt="sneakers_2">
- 
-						<div class="discrition">
- 
-							<p class="text_1">Nike Dunk Low SP</p>
- 
-							<p class="text_2">Nike Dunk Low Orange Blaze Syracuse</p>
- 
-						</div>
- 
-					</div></a>
- 
-					<a href="top3.html"><div class="sneaker top">
- 
-						<img class="cards" src="../static/imgs/main/sneakers_3.png" alt="sneakers_3">
- 
-						<div class="discrition">
- 
-							<p class="text_1">Converse Chuck 70 High</p>
- 
-							<p class="text_2">Comme des Garcons PLAY Black</p>
- 
-						</div>
- 
-					</div></a>
- 
-					<div class="sneaker">
- 
-						<img class="cards" src="../static/imgs/main/sneakers_4.png" alt="sneakers_4">
- 
-						<div class="discrition">
- 
-							<p class="text_1">adidas Yeezy Foam RNNR</p>
- 
-							<p class="text_2">Stone Sage</p>
- 
-						</div>
- 
-					</div>
- 
-					<div class="sneaker">
- 
-						<img class="cards" src="../static/imgs/main/sneakers_5.png" alt="sneakers_5">
- 
-						<div class="discrition">
- 
-							<p class="text_1">Nike Air Max Plus</p>
- 
-							<p class="text_2">Patta FC Barcelona Culers del Món</p>
- 
-						</div>
- 
-					</div>
- 
-					<div class="sneaker">
- 
-						<img class="cards" src="../static/imgs/main/sneakers_6.png" alt="sneakers_6">
- 
-						<div class="discrition">
- 
-							<p class="text_1">Jordan 1 Retro High OG SP</p>
- 
-							<p class="text_2">Union LA Bephies Beauty Supply Summer of ‘96</p>
- 
-						</div>
- 
-					</div>
- 
-					<div class="sneaker">
- 
-						<img class="cards" src="../static/imgs/main/sneakers_7.png" alt="sneakers_7">
- 
-						<div class="discrition">
- 
-							<p class="text_1">adidas Campus 00s</p>
- 
-							<p class="text_2">Core Black</p>
- 
-						</div>
- 
-					</div>
- 
-					<div class="sneaker">
- 
-						<img class="cards" src="../static/imgs/main/sneakers_8.png" alt="sneakers_8">
- 
-						<div class="discrition">
- 
-							<p class="text_1">UGG Classic Ultra Mini Boot</p>
- 
-							<p class="text_2">Chestnut (Women's)</p>
- 
-						</div>
- 
-					</div>
- 
-					<div class="sneaker">
- 
-						<img class="cards" src="../static/imgs/main/sneakers_9.png" alt="sneakers_9">
- 
-						<div class="discrition">
- 
-							<p class="text_1">Jordan 1 Retro Low Golf</p>
- 
-							<p class="text_2">Travis Scott Neutral Olive</p>
- 
-						</div>
- 
-					</div>
-         
-         
+
+                <div class="sneaker">
+
+                    <img class="cards" src="../static/imgs/main/sneakers_5.png" alt="sneakers_5">
+
+                    <div class="discrition">
+
+                        <p class="text_1">Nike Air Max Plus</p>
+
+                        <p class="text_2">Patta FC Barcelona Culers del Món</p>
+
+                    </div>
+
+                </div>
+
+                <div class="sneaker">
+
+                    <img class="cards" src="../static/imgs/main/sneakers_6.png" alt="sneakers_6">
+
+                    <div class="discrition">
+
+                        <p class="text_1">Jordan 1 Retro High OG SP</p>
+
+                        <p class="text_2">Union LA Bephies Beauty Supply Summer of ‘96</p>
+
+                    </div>
+
+                </div>
+
+                <div class="sneaker">
+
+                    <img class="cards" src="../static/imgs/main/sneakers_7.png" alt="sneakers_7">
+
+                    <div class="discrition">
+
+                        <p class="text_1">adidas Campus 00s</p>
+
+                        <p class="text_2">Core Black</p>
+
+                    </div>
+
+                </div>
+
+                <div class="sneaker">
+
+                    <img class="cards" src="../static/imgs/main/sneakers_8.png" alt="sneakers_8">
+
+                    <div class="discrition">
+
+                        <p class="text_1">UGG Classic Ultra Mini Boot</p>
+
+                        <p class="text_2">Chestnut (Women's)</p>
+
+                    </div>
+
+                </div>
+
+                <div class="sneaker">
+
+                    <img class="cards" src="../static/imgs/main/sneakers_9.png" alt="sneakers_9">
+
+                    <div class="discrition">
+
+                        <p class="text_1">Jordan 1 Retro Low Golf</p>
+
+                        <p class="text_2">Travis Scott Neutral Olive</p>
+
+                    </div>
+
                 </div>
 
 
             </div>
-        </main>
-        <footer class="container" id="f001">
-            <div  class="footer_nav">
-                <div class="footer_wrapper">
-                    <div class="footer_logo_white">
-                        <a href="#"><img src="../static/imgs/footer/logo.png" alt="logo"></a>
-                    </div>
-                    <ul class="footer_social_list">
-                        <li>
-                            <a href="#" class="footer_social_card">💬 TG</a>
-                        </li>
-                        <li>
-                            <a href="#" class="footer_social_card">😊 VK</a>
-                        </li>
-                        <li>
-                            <a href="#" class="footer_social_card">📺 YouTube</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer_bottom">
-                    <div class="line"></div>
-                    <div class="footer_text">
-                        <div>КРОССЫ И ТОЧКА ® 2023</div>
-                    </div>
-                </div>
-                
-            </div>
-        </footer>
-    </body>
+
+
+        </div>
+    </main>
+{% endblock %}
